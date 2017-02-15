@@ -9,7 +9,7 @@ namespace RPSHands.Objects
     public string user2;
     public string output;
 
-    public string Output(string input1, string input2)
+    public void Output(string input1, string input2)
     {
       user1 = input1;
       user2 = input2;
@@ -23,7 +23,6 @@ namespace RPSHands.Objects
       {
         output = "user2 wins";
       }
-        return output;
     }
   }
 }
